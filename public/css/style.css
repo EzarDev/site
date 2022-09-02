@@ -1,0 +1,53 @@
+.ez-welcome {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    top: 140px;
+}
+
+.ez-desc {
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    top: 160px;
+}
+
+.ez-row {
+    display: grid;
+ 
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-auto-rows: auto;
+    
+    grid-gap: 1rem;
+}
+
+.ft-zero {
+    position: absolute;
+    bottom: -345px;
+    left: 15px;
+}
+
+.ft-one {
+    position: absolute;
+    bottom: -580px;
+    left: 410px;
+}
+
+.ft-two {
+    position: absolute;
+    top: 24px;
+    left: 395px;
+}
+
+.ez-stats {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: -190px;
+}
+
+.ez-stats stat {
+    position: relative;
+    top: 100px;
+}
